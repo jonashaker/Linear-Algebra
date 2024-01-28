@@ -25,16 +25,17 @@ Returns new matrix object with zeros as entries.
 #### function Identity()
       function Identity(size) --> Matrix
 Returns new matrix object with ones on the main diagonal and zeros everywhere else. 
+
 #### function Transpose()
       function Transpose(A) --> Matrix
 Returns new transposed matrix.
 
 #### function Inverse()
       function Inverse(A) --> Matrix
-Returns inverse matrix.
+Returns inverse of matrix a.
 
 #### function Determinant()
       function Determinant(A) --> Float
-Retuns determinant of given matrix.
+Returns determinant of matrix A.
 
 
