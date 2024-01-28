@@ -16,7 +16,7 @@ Returns new transposed matrix.
 
 #### function Inverse()
       function Inverse(A) --> Matrix
-Returns inverse of matrix a.
+Returns inverse of matrix A.
 
 #### function Determinant()
       function Determinant(A) --> Float
