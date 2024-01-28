@@ -4,7 +4,7 @@ This library provides basic linear algebra functionalities, allowing for operati
 
 ## Documentation
 Linear Algebra consists of the following public classes and methods.
-
+### Types
 #### Class Matrix
 
       class Matrix(matrix)
