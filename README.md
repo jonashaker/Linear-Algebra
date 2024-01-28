@@ -10,6 +10,18 @@ Linear Algebra consists of the following public classes and methods.
       class Matrix(matrix)
           \\ Creates a matrix object. A rectangular table of real numbers.
 
+#### function Transpose()
+      function Transpose(A) --> Matrix
+Returns new transposed matrix.
+
+#### function Inverse()
+      function Inverse(A) --> Matrix
+Returns inverse of matrix a.
+
+#### function Determinant()
+      function Determinant(A) --> Float
+Returns determinant of matrix A.
+
 #### function Add()
       function Add(A, B) --> Matrix
 Returns sum of two matrices.
@@ -26,16 +38,5 @@ Returns new matrix object with zeros as entries.
       function Identity(size) --> Matrix
 Returns new matrix object with ones on the main diagonal and zeros everywhere else. 
 
-#### function Transpose()
-      function Transpose(A) --> Matrix
-Returns new transposed matrix.
-
-#### function Inverse()
-      function Inverse(A) --> Matrix
-Returns inverse of matrix a.
-
-#### function Determinant()
-      function Determinant(A) --> Float
-Returns determinant of matrix A.
 
 
