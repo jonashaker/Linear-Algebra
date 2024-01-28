@@ -153,7 +153,7 @@ def Multiply(A,B):
             new_matrix.append(curr_row)
         return Matrix(new_matrix)
     
-def scalar_multiply(c, A):
+def Scalar_multiply(c, A):
     """Multiplies a matrix by a constant."""
     new_matrix = []
     for row in range(A.rows):
